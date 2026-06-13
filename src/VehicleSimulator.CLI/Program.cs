@@ -3,6 +3,7 @@
 var vehicle = new Vehicle(
     initialPosition: new Position(0, 0),
     maxFuelLevel: 100,
+    initialFuelLevel: 100,
     fuelConsumptionPerUnitDistance: 0.1
 );
 
