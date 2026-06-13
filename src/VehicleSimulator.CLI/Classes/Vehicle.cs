@@ -17,6 +17,8 @@ public class Vehicle
         OutputPrecision = outputPrecision;
         Position = initialPosition;
         Log = new TripLog(outputPrecision);
+
+        Log.Record(Position);
     }
 
     public void Drive(double distanceX, double distanceY)

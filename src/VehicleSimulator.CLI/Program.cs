@@ -13,7 +13,7 @@ var vehicle = new Vehicle(
 
 // Drive in place.
 // TODO: comment this out - what happens to Totel Distance reported?
-vehicle.Drive(0, 0);
+//vehicle.Drive(0, 0);
 
 // Turn on and drive in one direction for given distance
 vehicle.Drive(100, 0);
