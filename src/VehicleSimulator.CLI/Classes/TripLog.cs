@@ -12,7 +12,7 @@ public class TripLog
             if (Entries.Count < 2)
                 return 0;
 
-            int total = 0;
+            double total = 0;
             for (int i = 1; i < Entries.Count; i++)
             {
                 // Get the component distance between this point and the previous point
